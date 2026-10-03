@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 600" width="1280" height="600" role="img" aria-label="Developer ID and Dashboard">
+  <title>Developer ID and Dashboard</title>
+  <desc>Left: Swinging holographic developer ID pass. Right: Developer dashboard, metrics, and live status.</desc>
+  <defs>
+    <style>
+      .sg { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: 800; }
+      .sgm { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: 600; }
+      .jb { font-family: ui-monospace, Menlo, Consolas, monospace; }
+      .jbb { font-family: ui-monospace, Menlo, Consolas, monospace; font-weight: 700; }
+
+      @keyframes fadeUp {
+        from { opacity: 0; transform: translateY(14px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes sway {
+        0%, 100% { transform: rotate(-1.8deg); }
+        50% { transform: rotate(1.8deg); }
+      }
+      @keyframes foil {
+        0% { transform: translateX(-320px); }
+        55%, 100% { transform: translateX(360px); }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.3; }
+      }
+
+      .swing {
+        transform-box: fill-box;
+        transform-origin: 210px 0px;
+        animation: sway 6s ease-in-out infinite;
+      }
+      .foil-effect { animation: foil 6s ease-in-out infinite; }
+      .fu { animation: fadeUp .7s cubic-bezier(.2,.8,.2,1) both; }
+    </style>
+
+    <linearGradient id="cardbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#171a2c"/>
+      <stop offset="100%" stop-color="#121423"/>
+    </linearGradient>
+
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#262a42"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.5"/>
+    </linearGradient>
+
+    <linearGradient id="strapG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="50%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+
+    <linearGradient id="idbg" x1="0" y1="0" x2=".6" y2="1">
+      <stop offset="0%" stop-color="#1b2140"/>
+      <stop offset="55%" stop-color="#141829"/>
+      <stop offset="100%" stop-color="#191330"/>
+    </linearGradient>
+
+    <linearGradient id="foilG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#22d3ee" stop-opacity="0.18"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.25"/>
+      <stop offset="65%" stop-color="#f472b6" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0"/>
+    </linearGradient>
+
+    <pattern id="dots4" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="11" cy="11" r="0.8" fill="#fff" fill-opacity="0.05"/>
+    </pattern>
+
+    <clipPath id="idClip">
+      <rect x="50" y="110" width="320" height="440" rx="22"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1280" height="600" rx="24" fill="url(#cardbg)"/>
+  <rect width="1280" height="600" rx="24" fill="url(#dots4)"/>
+  <rect x="0.75" y="0.75" width="1278.5" height="598.5" rx="23.25" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+
+  <!-- Header section -->
+  <g class="fu" style="animation-delay: 0.15s;">
+    <text class="jbb" x="420" y="54" font-size="12.5" fill="#a78bfa" letter-spacing="2.2">// DEVELOPER DASHBOARD</text>
+    <text class="sg" x="420" y="94" font-size="28" fill="#eceef6" letter-spacing="-0.5">Profile at a glance</text>
+
+    <g transform="translate(1080, 60)">
+      <rect x="0" y="-18" width="150" height="30" rx="15" fill="#34d399" fill-opacity="0.1" stroke="#34d399" stroke-opacity="0.4"/>
+      <circle cx="18" cy="-3" r="4" fill="#34d399">
+        <animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/>
+      </circle>
+      <text class="jbb" x="30" y="1" font-size="11" fill="#34d399" letter-spacing="1.2">LIVE · GITHUB</text>
+    </g>
+  </g>
+
+  <!-- LEFT: Swinging Developer ID Badge -->
+  <g class="swing" transform="translate(0, 0)">
+    <!-- Lanyard Strap -->
+    <rect x="200" y="0" width="20" height="110" fill="url(#strapG)"/>
+    <rect x="195" y="100" width="30" height="14" rx="4" fill="#64748b"/>
+
+    <!-- ID Card Container -->
+    <g clip-path="url(#idClip)">
+      <rect x="50" y="110" width="320" height="440" rx="22" fill="url(#idbg)" stroke="#3b82f6" stroke-opacity="0.4" stroke-width="2"/>
+
+      <!-- Holographic Foil Overlay -->
+      <rect class="foil-effect" x="50" y="110" width="200" height="440" fill="url(#foilG)" transform="skewX(-20)"/>
+
+      <!-- Top Header -->
+      <rect x="50" y="110" width="320" height="40" fill="#1e293b"/>
+      <text class="jbb" x="210" y="135" font-size="12" fill="#38bdf8" text-anchor="middle" letter-spacing="2">DEV PASS // 2026</text>
+
+      <!-- Avatar Graphics -->
+      <circle cx="210" cy="220" r="45" fill="#1e1b4b" stroke="#6366f1" stroke-width="2"/>
+      <text font-size="44" x="188" y="235">👨‍💻</text>
+
+      <!-- User Details -->
+      <text class="sg" x="210" y="300" font-size="22" fill="#ffffff" text-anchor="middle">Manish Kumar</text>
+      <text class="jbb" x="210" y="325" font-size="14" fill="#38bdf8" text-anchor="middle">@Codebymanish26</text>
+
+      <!-- Divider -->
+      <line x1="80" y1="345" x2="340" y2="345" stroke="#334155" stroke-width="1"/>
+
+      <!-- ID Attributes -->
+      <g transform="translate(80, 375)">
+        <text class="jb" x="0" y="0" font-size="11" fill="#94a3b8">ROLE:</text>
+        <text class="jbb" x="90" y="0" font-size="12" fill="#f8fafc">Full-Stack &amp; AI</text>
+
+        <text class="jb" x="0" y="28" font-size="11" fill="#94a3b8">LOCATION:</text>
+        <text class="jbb" x="90" y="28" font-size="12" fill="#f8fafc">India</text>
+
+        <text class="jb" x="0" y="56" font-size="11" fill="#94a3b8">STATUS:</text>
+        <text class="jbb" x="90" y="56" font-size="12" fill="#34d399">Building &amp; Scaling</text>
+
+        <text class="jb" x="0" y="84" font-size="11" fill="#94a3b8">FAV TECH:</text>
+        <text class="jbb" x="90" y="84" font-size="12" fill="#a78bfa">React · Python · AI</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- RIGHT: Dashboard Grid -->
+  <g transform="translate(420, 125)">
+    <!-- Tile 1: Repos & Activity -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="255" height="135" rx="16" fill="#161b2e" stroke="#252c48" stroke-width="1.2"/>
+      <text font-size="24" x="20" y="42">📦</text>
+      <text class="sg" x="20" y="80" font-size="32" fill="#22d3ee">Open Source</text>
+      <text class="sgm" x="20" y="105" font-size="13" fill="#94a3b8">Repositories &amp; Projects</text>
+    </g>
+
+    <!-- Tile 2: Commits & Contributions -->
+    <g transform="translate(275, 0)">
+      <rect x="0" y="0" width="255" height="135" rx="16" fill="#161b2e" stroke="#252c48" stroke-width="1.2"/>
+      <text font-size="24" x="20" y="42">🔥</text>
+      <text class="sg" x="20" y="80" font-size="32" fill="#f472b6">Daily Streak</text>
+      <text class="sgm" x="20" y="105" font-size="13" fill="#94a3b8">Active Code Contributions</text>
+    </g>
+
+    <!-- Tile 3: Main Tech Stack Focus -->
+    <g transform="translate(550, 0)">
+      <rect x="0" y="0" width="255" height="135" rx="16" fill="#161b2e" stroke="#252c48" stroke-width="1.2"/>
+      <text font-size="24" x="20" y="42">⚡</text>
+      <text class="sg" x="20" y="80" font-size="32" fill="#a78bfa">Full-Stack</text>
+      <text class="sgm" x="20" y="105" font-size="13" fill="#94a3b8">Web &amp; AI Integration</text>
+    </g>
+
+    <!-- Large Card: Primary Languages Breakdown -->
+    <g transform="translate(0, 160)">
+      <rect x="0" y="0" width="805" height="260" rx="16" fill="#161b2e" stroke="#252c48" stroke-width="1.2"/>
+      <text class="jbb" x="25" y="35" font-size="14" fill="#38bdf8" letter-spacing="1">PRIMARY LANGUAGES &amp; ECOSYSTEM</text>
+
+      <!-- Language Bars -->
+      <g transform="translate(25, 60)">
+        <!-- Lang 1: JavaScript / TypeScript -->
+        <g transform="translate(0, 0)">
+          <text class="sg" x="0" y="18" font-size="14" fill="#f8fafc">JavaScript / TypeScript</text>
+          <text class="jb" x="715" y="18" font-size="13" fill="#38bdf8" text-anchor="end">45%</text>
+          <rect x="0" y="28" width="715" height="10" rx="5" fill="#1e293b"/>
+          <rect x="0" y="28" width="320" height="10" rx="5" fill="#38bdf8"/>
+        </g>
+
+        <!-- Lang 2: Python -->
+        <g transform="translate(0, 55)">
+          <text class="sg" x="0" y="18" font-size="14" fill="#f8fafc">Python &amp; AI Scripting</text>
+          <text class="jb" x="715" y="18" font-size="13" fill="#a855f7" text-anchor="end">30%</text>
+          <rect x="0" y="28" width="715" height="10" rx="5" fill="#1e293b"/>
+          <rect x="0" y="28" width="215" height="10" rx="5" fill="#a855f7"/>
+        </g>
+
+        <!-- Lang 3: HTML5 / CSS3 / Tailwind -->
+        <g transform="translate(0, 110)">
+          <text class="sg" x="0" y="18" font-size="14" fill="#f8fafc">HTML5 / CSS3 / Tailwind</text>
+          <text class="jb" x="715" y="18" font-size="13" fill="#f472b6" text-anchor="end">15%</text>
+          <rect x="0" y="28" width="715" height="10" rx="5" fill="#1e293b"/>
+          <rect x="0" y="28" width="110" height="10" rx="5" fill="#f472b6"/>
+        </g>
+
+        <!-- Lang 4: C++ & Other -->
+        <g transform="translate(0, 165)">
+          <text class="sg" x="0" y="18" font-size="14" fill="#f8fafc">C++ &amp; Other</text>
+          <text class="jb" x="715" y="18" font-size="13" fill="#34d399" text-anchor="end">10%</text>
+          <rect x="0" y="28" width="715" height="10" rx="5" fill="#1e293b"/>
+          <rect x="0" y="28" width="70" height="10" rx="5" fill="#34d399"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
