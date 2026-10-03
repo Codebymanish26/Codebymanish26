@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 540" width="1280" height="540" role="img" aria-label="Manish — Full-Stack &amp; AI Developer">
-  <title>Manish — Full-Stack &amp; AI Developer</title>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 540" width="1280" height="540" role="img" aria-label="Saurav Ghimire — Full-Stack &amp; AI Developer">
+  <title>Saurav Ghimire — Full-Stack &amp; AI Developer</title>
   <desc>Hero banner with animated greeting, gradient name, cycling roles, and developer workstation preview.</desc>
   <defs>
     <style>
@@ -38,10 +38,6 @@
         22% { opacity: 1; transform: translateY(0); }
         25.5% { opacity: 0; transform: translateY(-18px); }
         100% { opacity: 0; transform: translateY(-18px); }
-      }
-      @keyframes codeGlow {
-        0%, 100% { filter: drop-shadow(0 0 8px opacity(0.3)); }
-        50% { filter: drop-shadow(0 0 20px rgba(34, 211, 238, 0.6)); }
       }
 
       .fu { animation: fadeUp .8s cubic-bezier(.2,.8,.2,1) both; }
@@ -107,7 +103,7 @@
       <!-- Main Name -->
       <g class="fu" style="animation-delay: 0.25s;">
         <text class="sg" x="0" y="195" font-size="22" fill="#94a3b8" letter-spacing="1">HI THERE 👋 I'M</text>
-        <text class="sg" x="0" y="260" font-size="62" fill="url(#nameG)" letter-spacing="-1">MANISH KUMAR</text>
+        <text class="sg" x="0" y="260" font-size="58" fill="url(#nameG)" letter-spacing="-1">SAURAV GHIMIRE</text>
       </g>
 
       <!-- Cycling Roles Box -->
@@ -132,7 +128,7 @@
 
       <!-- Subtitle & Quick Tech Chips -->
       <g class="fu" style="animation-delay: 0.55s;" transform="translate(0, 365)">
-        <text class="sgm" x="0" y="0" font-size="16" fill="#cbd5e1" opacity="0.9">Building high-performance web applications &amp; intelligent systems.</text>
+        <text class="sgm" x="0" y="0" font-size="16" fill="#cbd5e1" opacity="0.9">Dream Big · Work Hard · Stay Real ⚡</text>
 
         <!-- Chips -->
         <g transform="translate(0, 22)">
@@ -166,7 +162,7 @@
       <circle cx="54" cy="18" r="5.5" fill="#28c840"/>
 
       <!-- Window Title -->
-      <text class="jb" x="265" y="22" font-size="12" fill="#94a3b8" text-anchor="middle">manish.config.ts — Visual Studio Code</text>
+      <text class="jb" x="265" y="22" font-size="12" fill="#94a3b8" text-anchor="middle">saurav.config.ts — Visual Studio Code</text>
 
       <!-- Sidebar file icons mock -->
       <rect x="0" y="36" width="46" height="334" fill="#0d101f"/>
@@ -178,11 +174,11 @@
       <g transform="translate(65, 55)">
         <text class="jb" x="0" y="20" font-size="13" fill="#f472b6">const <tspan fill="#38bdf8">developer</tspan> = {</text>
 
-        <text class="jb" x="20" y="48" font-size="13" fill="#cbd5e1">name: <tspan fill="#34d399">'Manish Kumar'</tspan>,</text>
+        <text class="jb" x="20" y="48" font-size="13" fill="#cbd5e1">name: <tspan fill="#34d399">'Saurav Ghimire'</tspan>,</text>
 
         <text class="jb" x="20" y="76" font-size="13" fill="#cbd5e1">username: <tspan fill="#34d399">'Codebymanish26'</tspan>,</text>
 
-        <text class="jb" x="20" y="104" font-size="13" fill="#cbd5e1">role: <tspan fill="#34d399">'Full-Stack &amp; AI Engineer'</tspan>,</text>
+        <text class="jb" x="20" y="104" font-size="13" fill="#cbd5e1">motto: <tspan fill="#34d399">'Not luck, hard work brings success'</tspan>,</text>
 
         <text class="jb" x="20" y="132" font-size="13" fill="#cbd5e1">coreStack: [</text>
         <text class="jb" x="40" y="158" font-size="12" fill="#f59e0b">'React'</text><text class="jb" x="100" y="158" font-size="12" fill="#cbd5e1">, </text>
@@ -192,7 +188,7 @@
         <text class="jb" x="120" y="182" font-size="12" fill="#f59e0b">'TailwindCSS'</text>
         <text class="jb" x="20" y="208" font-size="13" fill="#cbd5e1">],</text>
 
-        <text class="jb" x="20" y="236" font-size="13" fill="#cbd5e1">status: <tspan fill="#38bdf8">'Always Building &amp; Innovating'</tspan></text>
+        <text class="jb" x="20" y="236" font-size="13" fill="#cbd5e1">status: <tspan fill="#38bdf8">'Dream Big · Work Hard · Stay Real'</tspan></text>
 
         <text class="jb" x="0" y="264" font-size="13" fill="#f472b6">};</text>
 

@@ -1,7 +1,14 @@
 <div align="center">
 
+<!-- 👑 FEATURED POSTER ARTWORK -->
+<a href="https://github.com/Codebymanish26">
+  <img src="./assets/poster.jpg" alt="Saurav Ghimire — Dream Big, Work Hard, Stay Real" width="460" style="border-radius: 18px; box-shadow: 0 10px 30px rgba(34, 211, 238, 0.3);"/>
+</a>
+
+<br/><br/>
+
 <!-- 🎬 HERO — Animated greeting + name + cycling roles -->
-<img src="./hero.svg?v=1" alt="Hi, I'm Manish — Full-Stack & AI Developer" width="100%"/>
+<img src="./hero.svg?v=1" alt="Hi, I'm Saurav Ghimire — Full-Stack & AI Developer" width="100%"/>
 
 <br/><br/>
 
@@ -47,7 +54,7 @@
 <img src="./connect.svg?v=1" alt="Let's connect" width="100%"/>
 
 <a href="https://github.com/Codebymanish26"><img src="https://img.shields.io/badge/GitHub-22d3ee?style=for-the-badge&logo=github&logoColor=0d0e16" alt="GitHub"/></a>
-<a href="mailto:manish@example.com"><img src="https://img.shields.io/badge/Email-f472b6?style=for-the-badge&logo=gmail&logoColor=0d0e16" alt="Email"/></a>
+<a href="mailto:saurav@example.com"><img src="https://img.shields.io/badge/Email-f472b6?style=for-the-badge&logo=gmail&logoColor=0d0e16" alt="Email"/></a>
 <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=ffffff" alt="LinkedIn"/></a>
 <a href="https://twitter.com"><img src="https://img.shields.io/badge/Twitter-1da1f2?style=for-the-badge&logo=twitter&logoColor=ffffff" alt="Twitter"/></a>
 
@@ -57,6 +64,6 @@
 
 <br/>
 
-**Always learning, always building.** ⚡
+**Dream Big · Work Hard · Stay Real** ⚡
 
 </div>

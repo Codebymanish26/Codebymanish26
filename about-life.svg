@@ -16,10 +16,6 @@
         0%, 100% { opacity: 1; }
         50% { opacity: 0.3; }
       }
-      @keyframes slideIn {
-        from { opacity: 0; transform: translateX(30px); }
-        to { opacity: 1; transform: translateX(0); }
-      }
 
       .cardL { animation: fadeUp .8s cubic-bezier(.2,.8,.2,1) .1s both; }
       .cardR { animation: fadeUp .8s cubic-bezier(.2,.8,.2,1) .3s both; }
@@ -50,9 +46,6 @@
     <clipPath id="winL">
       <rect x="35" y="125" width="550" height="475" rx="14"/>
     </clipPath>
-    <clipPath id="winR">
-      <rect x="695" y="125" width="550" height="475" rx="14"/>
-    </clipPath>
   </defs>
 
   <!-- LEFT CARD: Developer Mindset -->
@@ -76,7 +69,7 @@
 
       <!-- URL bar -->
       <rect x="180" y="133" width="260" height="20" rx="10" fill="#0b0e1b"/>
-      <text class="jb" x="310" y="147" font-size="11" fill="#8d93ab" text-anchor="middle">localhost:5173/manish/profile</text>
+      <text class="jb" x="310" y="147" font-size="11" fill="#8d93ab" text-anchor="middle">localhost:5173/saurav/profile</text>
       <rect class="cursor" x="382" y="137" width="1.5" height="12" fill="#22d3ee"/>
 
       <!-- Inner Content -->
@@ -116,8 +109,8 @@
         <!-- Status box -->
         <g transform="translate(0, 275)">
           <rect x="0" y="0" width="500" height="60" rx="12" fill="#171b33" stroke="#2a3158"/>
-          <text class="jbb" x="20" y="25" font-size="12" fill="#38bdf8">&gt; STATUS: Currently exploring advanced agentic workflows</text>
-          <text class="jb" x="20" y="45" font-size="11" fill="#94a3b8">Building full-stack AI-driven web applications</text>
+          <text class="jbb" x="20" y="25" font-size="12" fill="#38bdf8">&gt; MOTTO: Dream Big · Work Hard · Stay Real</text>
+          <text class="jb" x="20" y="45" font-size="11" fill="#94a3b8">Not luck, but hard work brings success</text>
         </g>
       </g>
     </g>

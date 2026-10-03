@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 600" width="1280" height="600" role="img" aria-label="Developer ID and Dashboard">
   <title>Developer ID and Dashboard</title>
-  <desc>Left: Swinging holographic developer ID pass. Right: Developer dashboard, metrics, and live status.</desc>
+  <desc>Left: Swinging holographic developer ID pass featuring Saurav Ghimire. Right: Developer dashboard, metrics, and live status.</desc>
   <defs>
     <style>
       .sg { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: 800; }
@@ -19,10 +19,6 @@
       @keyframes foil {
         0% { transform: translateX(-320px); }
         55%, 100% { transform: translateX(360px); }
-      }
-      @keyframes pulse {
-        0%, 100% { opacity: 1; }
-        50% { opacity: 0.3; }
       }
 
       .swing {
@@ -65,12 +61,22 @@
       <stop offset="100%" stop-color="#f472b6" stop-opacity="0"/>
     </linearGradient>
 
+    <linearGradient id="ringG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+
     <pattern id="dots4" width="22" height="22" patternUnits="userSpaceOnUse">
       <circle cx="11" cy="11" r="0.8" fill="#fff" fill-opacity="0.05"/>
     </pattern>
 
     <clipPath id="idClip">
       <rect x="50" y="110" width="320" height="440" rx="22"/>
+    </clipPath>
+
+    <clipPath id="avatarClip">
+      <circle cx="210" cy="225" r="46"/>
     </clipPath>
   </defs>
 
@@ -109,12 +115,12 @@
       <rect x="50" y="110" width="320" height="40" fill="#1e293b"/>
       <text class="jbb" x="210" y="135" font-size="12" fill="#38bdf8" text-anchor="middle" letter-spacing="2">DEV PASS // 2026</text>
 
-      <!-- Avatar Graphics -->
-      <circle cx="210" cy="220" r="45" fill="#1e1b4b" stroke="#6366f1" stroke-width="2"/>
-      <text font-size="44" x="188" y="235">👨‍💻</text>
+      <!-- Profile Image / Avatar -->
+      <circle cx="210" cy="225" r="48" fill="none" stroke="url(#ringG)" stroke-width="3"/>
+      <image clip-path="url(#avatarClip)" x="160" y="175" width="100" height="100" href="./assets/profile.jpg" preserveAspectRatio="xMidYMin slice"/>
 
       <!-- User Details -->
-      <text class="sg" x="210" y="300" font-size="22" fill="#ffffff" text-anchor="middle">Manish Kumar</text>
+      <text class="sg" x="210" y="300" font-size="22" fill="#ffffff" text-anchor="middle">Saurav Ghimire</text>
       <text class="jbb" x="210" y="325" font-size="14" fill="#38bdf8" text-anchor="middle">@Codebymanish26</text>
 
       <!-- Divider -->
@@ -125,11 +131,11 @@
         <text class="jb" x="0" y="0" font-size="11" fill="#94a3b8">ROLE:</text>
         <text class="jbb" x="90" y="0" font-size="12" fill="#f8fafc">Full-Stack &amp; AI</text>
 
-        <text class="jb" x="0" y="28" font-size="11" fill="#94a3b8">LOCATION:</text>
-        <text class="jbb" x="90" y="28" font-size="12" fill="#f8fafc">India</text>
+        <text class="jb" x="0" y="28" font-size="11" fill="#94a3b8">MOTTO:</text>
+        <text class="jbb" x="90" y="28" font-size="11" fill="#f8fafc">Hard Work Brings Success</text>
 
         <text class="jb" x="0" y="56" font-size="11" fill="#94a3b8">STATUS:</text>
-        <text class="jbb" x="90" y="56" font-size="12" fill="#34d399">Building &amp; Scaling</text>
+        <text class="jbb" x="90" y="56" font-size="12" fill="#34d399">Dream Big · Stay Real</text>
 
         <text class="jb" x="0" y="84" font-size="11" fill="#94a3b8">FAV TECH:</text>
         <text class="jbb" x="90" y="84" font-size="12" fill="#a78bfa">React · Python · AI</text>

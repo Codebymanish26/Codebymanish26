@@ -16,10 +16,6 @@
         0%, 100% { transform: scale(1); }
         50% { transform: scale(1.06); }
       }
-      @keyframes rotateAtom {
-        from { transform: rotate(0deg); }
-        to { transform: rotate(360deg); }
-      }
 
       .fu { animation: fadeUp .7s cubic-bezier(.2,.8,.2,1) both; }
       .core { transform-box: fill-box; transform-origin: center; animation: breathe 4s ease-in-out infinite; }
@@ -69,7 +65,7 @@
 
     <!-- Center Nucleus Core -->
     <circle class="core" r="32" fill="url(#coreG)"/>
-    <text class="jbb" x="0" y="5" font-size="12" fill="#ffffff" text-anchor="middle">MANISH</text>
+    <text class="jbb" x="0" y="5" font-size="11" fill="#ffffff" text-anchor="middle">SAURAV</text>
 
     <!-- Node 1: React -->
     <g transform="translate(180, 0)">
