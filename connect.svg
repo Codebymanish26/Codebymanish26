@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 260" width="1280" height="260" role="img" aria-label="Let's Connect">
   <title>Let's Connect</title>
-  <desc>Footer banner encouraging connection and collaboration with Manish.</desc>
+  <desc>Footer banner encouraging connection and collaboration with Saurav Ghimire.</desc>
   <defs>
     <style>
       .sg { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: 800; }
@@ -62,8 +62,8 @@
     <!-- Center Content -->
     <g transform="translate(640, 130)" text-anchor="middle">
       <text class="jbb" y="-45" font-size="13" fill="#22d3ee" letter-spacing="3">// LET'S CONNECT</text>
-      <text class="sg" y="10" font-size="38" fill="url(#textG)" letter-spacing="-0.5">Let's Build Something Great Together</text>
-      <text class="sgm" y="55" font-size="16" fill="#cbd5e1" opacity="0.9">Open for web application builds, AI integration, and exciting technical collaborations.</text>
+      <text class="sg" y="10" font-size="36" fill="url(#textG)" letter-spacing="-0.5">Let's Build Something Great Together</text>
+      <text class="sgm" y="52" font-size="16" fill="#cbd5e1" opacity="0.9">🌐 spghimire.com.np  ·  ✉️ sauravpdghimire@gmail.com</text>
     </g>
   </g>
 </svg>
