@@ -1,22 +1,22 @@
 <div align="center">
 
 <!-- 🎬 HERO — video intro + name -->
-<img src="./hero.svg?v=2" alt="Hi, I'm Saurav Ghimire — Full-Stack Developer" width="100%"/>
+<img src="./hero.svg?v=3" alt="Hi, I'm Saurav Ghimire — Full-Stack Developer" width="100%"/>
 
 <br/><br/>
 
 <!-- 👩‍💻 LEFT: what I build   •   🏃 RIGHT: life outside code -->
-<img src="./about-life.svg?v=2" alt="What I build, and life beyond the code" width="100%"/>
+<img src="./about-life.svg?v=3" alt="What I build, and life beyond the code" width="100%"/>
 
 <br/><br/>
 
 <!-- ⚛️ TECH STACK -->
-<img src="./stack.svg?v=2" alt="Tech stack" width="100%"/>
+<img src="./stack.svg?v=3" alt="Tech stack" width="100%"/>
 
 <br/><br/>
 
 <!-- 🪪 DEVELOPER ID + DASHBOARD -->
-<img src="./id-dashboard.svg?v=2" alt="Developer ID and dashboard" width="100%"/>
+<img src="./id-dashboard.svg?v=3" alt="Developer ID and dashboard" width="100%"/>
 
 <br/><br/>
 
@@ -44,7 +44,7 @@
 <br/><br/>
 
 <!-- 💌 LET'S CONNECT -->
-<img src="./connect.svg?v=2" alt="Let's connect" width="100%"/>
+<img src="./connect.svg?v=3" alt="Let's connect" width="100%"/>
 
 <a href="https://spghimire.com.np" target="_blank"><img src="https://img.shields.io/badge/Website-22d3ee?style=for-the-badge&logo=googlechrome&logoColor=0d0e16" alt="Website"/></a>
 <a href="mailto:sauravpdghimire@gmail.com"><img src="https://img.shields.io/badge/Email-f472b6?style=for-the-badge&logo=gmail&logoColor=0d0e16" alt="Email"/></a>
