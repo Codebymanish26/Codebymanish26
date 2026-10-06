@@ -256,35 +256,36 @@ Ultra-optimized, highly responsive personal developer portfolio engineered to pr
 
 ---
 
-## 10. GitHub Trophies
+## 10. Featured Repositories & Architecture Showcase
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Codebymanish26&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
+<a href="https://github.com/Codebymanish26/job-portal-website">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Codebymanish26&repo=job-portal-website&theme=tokyonight&border_color=7c3aed&bg_color=0d1117&title_color=a78bfa&text_color=cbd5e1" width="49%" alt="Job Portal Showcase" />
+</a>
+<a href="https://github.com/Codebymanish26/sunshine">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Codebymanish26&repo=sunshine&theme=tokyonight&border_color=7c3aed&bg_color=0d1117&title_color=a78bfa&text_color=cbd5e1" width="49%" alt="Sunshine Showcase" />
+</a>
 
 </div>
 
 ---
 
-## 11. Contribution Activity Timeline
+## 11. Contribution Activity Timeline & 3D City
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Codebymanish26&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=a78bfa&line=6366f1&point=c084fc" width="100%" alt="Activity Graph" />
+<img src="./profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D Contribution Activity City" />
 
 </div>
 
 ---
 
-## 12. Contribution Matrix
+## 12. Contribution Matrix & Spectrum
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Codebymanish26/Codebymanish26/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Codebymanish26/Codebymanish26/output/github-contribution-grid-snake.svg">
-  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Codebymanish26/Codebymanish26/output/github-contribution-grid-snake.svg">
-</picture>
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contribution Matrix Spectrum" />
 
 </div>
 
