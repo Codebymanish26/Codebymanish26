@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- Capsule Render Wave Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=0,2,2&custom_color=7928CA,4338CA,3B82F6&height=230&section=header&text=Saurav%20Ghimire&fontSize=52&fontAlignY=36&fontColor=ffffff&desc=Senior%20Software%20Engineer%20%7C%20AI%20%26%20Full%20Stack%20Architect&descAlignY=58&descAlign=50" width="100%" alt="Header Banner" />
+<!-- Header Wave Banner -->
+<img src="./assets/header-banner.svg" width="100%" alt="Header Banner" />
 
 <!-- Typing SVG Animation -->
 <a href="https://spghimire.com.np">
@@ -336,7 +336,7 @@ operational_focus:
 
 <br/>
 
-<!-- Capsule Render Wave Footer -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=0,2,2&custom_color=7928CA,4338CA,3B82F6&height=120&section=footer" width="100%" alt="Footer Banner" />
+<!-- Wave Footer Banner -->
+<img src="./assets/footer-banner.svg" width="100%" alt="Footer Banner" />
 
 </div>
