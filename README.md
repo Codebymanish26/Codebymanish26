@@ -12,7 +12,7 @@
 
 <!-- Metadata Badges -->
 <p align="center">
-  <a href="https://github.com/Codebymanish26"><img src="https://img.shields.io/badge/Degree-B.S.%20Computer%20Science%20%26%20Engineering-4338ca?style=flat-square&logo=academia&logoColor=ffffff" alt="Academic Degree" /></a>
+  <img src="https://img.shields.io/badge/Role-Full--Stack%20%26%20AI%20Developer-4338ca?style=flat-square&logo=code&logoColor=ffffff" alt="Developer Role" />
   <img src="https://img.shields.io/badge/Specialization-Distributed%20Systems%20%26%20AI-581c87?style=flat-square&logo=googlecloud&logoColor=ffffff" alt="Specialization" />
   <img src="https://img.shields.io/badge/Location-Kathmandu%2C%20Nepal-1e1b4b?style=flat-square&logo=googlemaps&logoColor=a78bfa" alt="Location" />
 </p>
@@ -44,7 +44,6 @@
 | :--- | :--- |
 | **Full Name** | **Saurav Ghimire (spghimire)** |
 | **Primary Roles** | Senior Full-Stack Engineer • Cloud Solutions Architect • AI Systems Developer |
-| **Education** | **B.S. in Computer Science & Engineering** |
 | **Portfolio & Web** | [https://spghimire.com.np](https://spghimire.com.np) |
 | **Direct Contact** | [sauravpdghimire@gmail.com](mailto:sauravpdghimire@gmail.com) |
 | **Availability** | Available for Full-Time Roles, Strategic Architecture & High-Impact Consulting |
