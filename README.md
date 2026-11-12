@@ -20,9 +20,9 @@
 <!-- Action Buttons -->
 <p align="center">
   <a href="https://spghimire.com.np" target="_blank"><img src="https://img.shields.io/badge/PORTFOLIO-spghimire.com.np-7c3aed?style=for-the-badge&logo=googlechrome&logoColor=ffffff" alt="Portfolio" /></a>
+  <a href="#-curriculum-vitae-cv--professional-dossier"><img src="https://img.shields.io/badge/CURRICULUM%20VITAE-View%20CV%20%2F%20Resume-ec4899?style=for-the-badge&logo=adobeacrobatreader&logoColor=ffffff" alt="View CV" /></a>
   <a href="https://linkedin.com/in/saurav-ghimire" target="_blank"><img src="https://img.shields.io/badge/LINKEDIN-Connect-4338ca?style=for-the-badge&logo=linkedin&logoColor=ffffff" alt="LinkedIn" /></a>
   <a href="mailto:sauravpdghimire@gmail.com"><img src="https://img.shields.io/badge/EMAIL-Direct%20Inquiry-3b82f6?style=for-the-badge&logo=gmail&logoColor=ffffff" alt="Email" /></a>
-  <a href="https://github.com/Codebymanish26"><img src="https://img.shields.io/badge/GITHUB-Codebymanish26-1e1b4b?style=for-the-badge&logo=github&logoColor=ffffff" alt="GitHub" /></a>
 </p>
 
 <!-- Telemetry Badges -->
@@ -35,6 +35,38 @@
 </div>
 
 ---
+
+## 📄 Curriculum Vitae (CV) & Professional Dossier
+
+<div align="center">
+
+| Profile Detail | Information |
+| :--- | :--- |
+| **Full Name** | **Saurav Ghimire (spghimire)** |
+| **Primary Roles** | Senior Full-Stack Engineer • Cloud Solutions Architect • AI Systems Developer |
+| **Education** | **B.S. in Computer Science & Engineering** |
+| **Portfolio & Web** | [https://spghimire.com.np](https://spghimire.com.np) |
+| **Direct Contact** | [sauravpdghimire@gmail.com](mailto:sauravpdghimire@gmail.com) |
+| **Availability** | Available for Full-Time Roles, Strategic Architecture & High-Impact Consulting |
+
+<br/>
+
+<p align="center">
+  <a href="https://spghimire.com.np" target="_blank">
+    <img src="https://img.shields.io/badge/Interactive%20CV-Visit%20Website-7c3aed?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Interactive CV" />
+  </a>
+  <a href="mailto:sauravpdghimire@gmail.com?subject=Job%20Opportunity%20%2F%20Consulting%20Inquiry%20for%20Saurav%20Ghimire">
+    <img src="https://img.shields.io/badge/Request%20Official%20PDF%20CV-Email%20Direct-ec4899?style=for-the-badge&logo=gmail&logoColor=white" alt="Request PDF CV" />
+  </a>
+</p>
+
+</div>
+
+### 🎯 Key Competencies & Highlights:
+* **Full-Stack Web Architectures:** React, TypeScript, Node.js, Express, Next.js, GraphQL, REST APIs.
+* **Backend, Cloud & Microservices:** Distributed systems, PostgreSQL, MongoDB, Redis, Docker, CI/CD automation.
+* **Applied AI Engineering:** Large Language Models (LLMs), RAG systems, vector embeddings, and autonomous agent systems.
+* **Clean Code & Reliability:** Test-Driven Development (TDD), zero-downtime deployments, high scalability & fault tolerance.
 
 ## 01. Engineering Profile & Biography
 
