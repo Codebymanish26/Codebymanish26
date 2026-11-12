@@ -69,7 +69,7 @@
 
 ## 01. Engineering Profile & Biography
 
-I am a **Senior Full-Stack Software Engineer & Distributed Systems Architect** dedicated to building resilient, high-throughput digital infrastructures and intelligent AI-integrated applications. Leveraging foundational computer science principles, low-latency API design, and modern reactive frontends, I specialize in transforming complex product visions into fault-tolerant production ecosystems.
+I am a **Senior Full-Stack Software Engineer & Distributed Systems Architect** dedicated to building resilient, high-throughput digital infrastructures and intelligent AI-integrated applications. Leveraging modern software engineering principles, low-latency API design, and modern reactive frontends, I specialize in transforming complex product visions into fault-tolerant production ecosystems.
 
 - **Enterprise Full-Stack Architecture**: Extensive engineering background spanning microservices, event-driven pipelines, relational and document databases, alongside responsive client-side state architectures.
 - **Applied AI & Cognitive Engineering**: Specialized in operationalizing Large Language Models (LLMs), RAG (Retrieval-Augmented Generation) architectures, vector search indexes, and autonomous agent systems into enterprise workflows.
